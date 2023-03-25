@@ -7,7 +7,6 @@ import sys
 import getopt
 
 def main():
-    
     number = ''
     argsv = sys.argv[1:] #el nombre del archivo es el primero que se pasa por lo que tiene indice 0, e iniciamos desde 1
     
