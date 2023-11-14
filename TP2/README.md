@@ -7,12 +7,14 @@ que desea procesar junto con el factor de escalado (si es que decide escalar la 
 # Ejemplo
 1- "Inicio de Servidor en main"
 python3 main.py -i 0.0.0.0 -p 8083 -m messi.jpg -s 0.8
-*_respuesta_* : Soy el proceso padre - PID: 80141
+
+*respuesta* : Soy el proceso padre - PID: 80141
               Servidor de procesamiento de imágenes iniciado en 0.0.0.0:8083
 
 2- "Inicio de Servidor en image_scale_server"
 python3 image_scale_server.py
-*_respuesta_*: Escuchando en el puerto:  8080
+
+*respuesta*: Escuchando en el puerto:  8080
 
 3- "Uso de CURL"
 curl -X POST -d "/home/kali/Desktop/UM/Computacion2/TP2/" http://localhost:8083
